@@ -53,16 +53,17 @@ body {
 /*top body*/
 .big-logo {
   position: fixed;
-  top: 100px;           
+  top: 0px;           
   right: 0;
-  width: 1000px;         
+  width: 2000px;         
   height: auto;
   opacity: 0.75;        
-  z-index: 500;        
-  pointer-events: none; 
+  z-index: 500;  
+  margin-top: -180px;    
+  margin-left: -280px;  
 }
 .body-text {
-  margin-top: 750px; 
+  margin-top: 800px; 
   margin-right: 1500px;
   text-align: left;
 }
@@ -73,3 +74,12 @@ body {
   font-size: 3rem; 
 }
 /*top body*/
+
+/*second body*/
+.second-body {
+  margin-top: 0;
+}
+
+
+
+/*second body*/
