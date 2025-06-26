@@ -76,7 +76,13 @@ body {
 /*top body*/
 
 /*second body*/
-
+.second-body {
+  max-height: 500px;   
+  overflow-y: auto;    
+  background: #111;    
+  padding: 32px;         
+  margin: 40px 0;        
+}
 
 
 /*second body*/
