@@ -786,7 +786,8 @@ Services Style
   padding: 35px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 25px;
-  background-color: #fff;
+  background-color: #333333 ;
+  color: #fff !important;
   text-align: center;
 }
 
@@ -794,6 +795,7 @@ Services Style
   font-size: 17px;
   margin-top: 25px;
   text-transform: uppercase;
+  color: #333333;
 }
 
 .features .item .image {
@@ -802,16 +804,18 @@ Services Style
   display: inline-block;
   text-align: center;
   line-height: 90px;
-  background-color: #0071f8;
+  background-color: #333333 !important;
   border-radius: 50%;
+  border: 4px solid #333333 !important;
+  box-shadow: none !important;
   transition: all .3s;
 }
 
 .features .item:hover .image {
-  background-color: #ee626b;
+  background-color: #333333 !important;
+  border: 4px solid #333333 !important;
+  box-shadow: none !important;
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -1736,5 +1740,24 @@ h1, h2, h3, h4, h5, h6, p, span, li, a, label, input, textarea, button {
 .main-banner .caption p,
 .main-banner .caption form input,
 .main-banner .caption form button {
+  color: #fff !important;
+}
+
+/* OVERRIDE: Feature boxes dark background and white text */
+.features .item,
+.features .item * {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+/* FINAL OVERRIDE: Ensure feature icon circles are #333333, not green */
+.features .item .image {
+  background-color: #333333 !important;
+  border: 4px solid #333333 !important;
+  color: #fff !important;
+}
+.features .item:hover .image {
+  background-color: #333333 !important;
+  border: 4px solid #333333 !important;
   color: #fff !important;
 }
