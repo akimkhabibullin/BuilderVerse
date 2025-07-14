@@ -184,3 +184,13 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+body, html, .owl-carousel, .owl-carousel .owl-stage, .owl-carousel .owl-item, .owl-carousel .owl-item img {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-dot {
+  color: #fff !important;
+  background: #222 !important;
+}

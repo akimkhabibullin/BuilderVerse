@@ -279,3 +279,16 @@ html[xmlns] .flexslider .slides {
     right: 10px;
   }
 }
+body, html, .flexslider, .flexslider .slides, .flexslider .slides img {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.flexslider .slides > li, .flexslider .slides img, .flexslider .slides:after {
+  color: #fff !important;
+}
+
+.flex-direction-nav a, .flex-pauseplay a, .flex-control-paging li a, .flex-control-paging li a.flex-active {
+  color: #fff !important;
+  background: #222 !important;
+}

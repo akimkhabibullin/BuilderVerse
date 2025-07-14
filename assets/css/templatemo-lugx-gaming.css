@@ -159,7 +159,7 @@ body {
 
 .main-button a {
   display: inline-block;
-  background-color: #ee626b;
+  background-color: #b4f661;
   text-transform: uppercase;
   color: #fff;
   font-size: 14px;
@@ -285,7 +285,7 @@ Header Style
 */
 
 .background-header {
-  background-color: #0071f8 !important;
+  background-color: #b4f661 !important;
   border-radius: 0px 0px 25px 25px;
   height: 80px!important;
   position: fixed!important;
@@ -713,8 +713,8 @@ Banner Style
   display: inline-block;
   height: 50px;
   line-height: 50px;
-  background-color: #ee626b;
-  color: #fff;
+  background-color: #b4f661 !important;
+  color: #000 !important;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
@@ -728,7 +728,8 @@ Banner Style
 }
 
 .main-banner .caption form button:hover {
-  background-color: #0071f8;
+  background-color: #d6ffb4 !important;
+  color: #000 !important;
 }
 
 .main-banner .right-image {
@@ -1670,4 +1671,62 @@ body {
 
 @media (max-width: 1200px) {
   
+}
+
+body, html {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, li, a, label, input, textarea, button {
+  color: #fff !important;
+}
+
+.header-area, .background-header, .main-banner, .features .item, .trending .item, .most-played, .most-played .item, .categories .item, .cta, .cta .shop, .cta .subscribe, footer, .page-heading, .tabs-content, .contact-page .left-text, .contact-page .right-content {
+  background-color: #b4f661 !important;
+  color: #000 !important;
+}
+
+/* Ensure all text on green backgrounds is black */
+.header-area, .background-header, .main-banner, .features .item, .trending .item, .most-played, .most-played .item, .categories .item, .cta, .cta .shop, .cta .subscribe, footer, .page-heading, .tabs-content, .contact-page .left-text, .contact-page .right-content,
+.header-area *, .background-header *, .main-banner *, .features .item *, .trending .item *, .most-played *, .most-played .item *, .categories .item *, .cta *, .cta .shop *, .cta .subscribe *, footer *, .page-heading *, .tabs-content *, .contact-page .left-text *, .contact-page .right-content * {
+  color: #000 !important;
+}
+
+.main-button a, .header-area .main-nav .nav li a, .header-area .main-nav .nav li:last-child a, .trending .item .down-content a, .most-played .item .down-content a, .categories .item h4, .cta .subscribe form button, .single-product form button {
+  background-color: #b4f661 !important;
+  color: #000 !important;
+}
+
+.section-heading h2 em,
+.main-banner .right-image span.price,
+.trending .item span.price,
+.trending-box .item span.price,
+.single-product span.price,
+.tabs-content .nav-tabs .nav-link.active {
+  color: #000 !important;
+  background-color: #b4f661 !important;
+}
+
+.features .item .image,
+.trending .item .down-content a,
+.most-played .item .down-content a,
+.categories .item {
+  background-color: #b4f661 !important;
+  color: #000 !important;
+}
+
+.single-product ul li {
+  background-color: #b4f661 !important;
+  color: #000 !important;
+}
+
+.trending .item:hover .down-content h4,
+.trending .item:hover .down-content a,
+.most-played .item:hover .down-content h4,
+.most-played .item:hover .down-content a,
+.trending-box .item:hover .down-content h4,
+.trending-box .item:hover .down-content a {
+  background-color: #7bbf2a !important;
+  color: #000 !important;
 }
