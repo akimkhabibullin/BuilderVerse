@@ -1730,3 +1730,11 @@ h1, h2, h3, h4, h5, h6, p, span, li, a, label, input, textarea, button {
   background-color: #7bbf2a !important;
   color: #000 !important;
 }
+
+.main-banner .caption h6,
+.main-banner .caption h2,
+.main-banner .caption p,
+.main-banner .caption form input,
+.main-banner .caption form button {
+  color: #fff !important;
+}
